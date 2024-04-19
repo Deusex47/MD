@@ -9,7 +9,7 @@ let botStartTime = new Date();
 pnix(
   {
     pattern: "menu",
-    fromMe: isPrivate,
+    fromMe: ispublic,
     type: "main",
     desc: "Show All commands",
   },
@@ -73,7 +73,7 @@ Description : ${i.desc}\`\`\``
 
       menu += ``;
       return await message.client.sendMessage(message.jid, {
-        image: { url: `https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg` },
+        image: { url: `https://i.imgur.com/kKdP1v0.jpeg` },
         caption: tiny(menu),
         footer: tiny(
           `Phoenix-MD\nVersion : ${require("../package.json").version}`
