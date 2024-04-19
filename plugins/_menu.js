@@ -9,7 +9,7 @@ let botStartTime = new Date();
 pnix(
   {
     pattern: "menu",
-    fromMe: ispublic,
+    fromMe: isPrivate,
     type: "main",
     desc: "Show All commands",
   },
